@@ -43,16 +43,6 @@ router.put('/api2/item/:id', async (req, res)=>{
 })
 
 
-//Delete item from database
-// router.delete('/api2/item/:id', async (req, res)=>{
-//   try{
-//     //find the item by its id and delete it
-//     const deleteItem = await data2model.findByIdAndDelete(req.params.id);
-//     res.status(200).json('Item Deleted');
-//   }catch(err){
-//     res.json(err);
-//   }
-// })
 
 
 //export router
